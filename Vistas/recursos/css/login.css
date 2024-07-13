@@ -1,0 +1,93 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Josefin Sans;
+}
+.box{
+	width:400px;
+	background:#fff;
+	padding:40px;
+}
+#mb p{
+	font-size:11px;
+}
+
+.box h2{
+	margin: 0 0 40px;
+	padding: 0;
+	color:#1565C0;
+	text-transform:uppercase;
+}
+.box input{
+	padding:10px 0;
+	margin-bottom: 30px;
+	width:100%;
+	outline:none;
+	border:none;
+	border-bottom:2px solid #1565C0;
+}
+.box input[type="submit"]{
+	cursor:pointer;
+	text-transform:uppercase;
+	background-color:#1565C0;
+	border-radius:100px;
+	color:#FFF;
+}
+.botonAzul{
+	cursor:pointer;
+	text-transform:uppercase;
+	background-color:#1565C0;
+	border-radius:100px;
+	color:#FFF;
+}
+
+#strayecto{
+	border-radius:100px;
+}
+
+#card-h{
+	background-color:#1565C0;
+	color:#FFF;
+}
+.box form div{
+	position:relative;
+}
+.box form div label{
+	position:absolute;
+	top:10px;
+	left:0;
+	color:#1565C0;
+	transition: .5s;
+	pointer-events:none;
+}
+.box input:focus ~ label,
+.box textarea:focus ~ label,
+.box input:valid ~ label,
+.box textarea:valid ~ label{
+	top: -12px;
+	left:0;
+	color:#1565C0;
+	font-size:12px;
+	font-weight: bold;
+}
+.box input:focus,
+.box textarea:focus,
+.box input:valid,
+.box textarea:valid{
+	border-bottom: 2px solid #1565C0;
+}
+#rol{
+	border-radius:100px;
+}
+#container-main{
+	margin-bottom:60px;
+}
+#footer{
+	background-color: #000;
+}
+#footer div,
+#footer div small{
+	color:#FFF;
+	padding:18px;
+	text-align:center;
+}
